@@ -4,3 +4,4 @@ Dataset link https://www.10xgenomics.com/datasets/33-k-pbm-cs-from-a-healthy-don
 download Gene/Cell matrix (Filtered).gz file.
 extract it and put its path in the project to begin.
 the project requires cupy, xgboost, scanpy libraries along with basic ones like scikit, pandas and numpy.
+Since this project now runs on linux you will require cuML library along with its dependencies. Its suggested to make an seperate enviornment in python with all the required modules to run this project.
